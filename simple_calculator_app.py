@@ -36,3 +36,8 @@ except ValueError:
         print(f"Error: {error}")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
+
+repeat = input("Try again? (yes/no): ").lower().strip()
+    if repeat != "yes":
+        print("Thank you!")
+        break
