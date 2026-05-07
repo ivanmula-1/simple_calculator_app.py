@@ -23,3 +23,9 @@ try:
 if user_choice not in [1, 2, 3, 4]:
             print("Invalid choice. Please select 1, 2, 3, or 4.")
             continue
+
+first_number = float(input("Enter first number: "))
+        second_number = float(input("Enter second number: "))
+
+        result = calculate(first_number, second_number, user_choice)
+        print(f"Result: {result}")
