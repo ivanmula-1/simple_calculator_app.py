@@ -16,3 +16,6 @@ while True:
     print("2 - Subtraction")
     print("3 - Multiplication")
     print("4 - Division")
+
+try:
+        user_choice = int(input("Choose operation (1-4): "))
