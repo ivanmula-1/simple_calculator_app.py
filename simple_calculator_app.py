@@ -29,3 +29,10 @@ first_number = float(input("Enter first number: "))
 
         result = calculate(first_number, second_number, user_choice)
         print(f"Result: {result}")
+
+except ValueError:
+        print("Invalid input. Please enter numeric values for numbers and integers for choices.")
+    except ZeroDivisionError as error:
+        print(f"Error: {error}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
