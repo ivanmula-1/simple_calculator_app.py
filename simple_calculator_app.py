@@ -19,3 +19,7 @@ while True:
 
 try:
         user_choice = int(input("Choose operation (1-4): "))
+
+if user_choice not in [1, 2, 3, 4]:
+            print("Invalid choice. Please select 1, 2, 3, or 4.")
+            continue
